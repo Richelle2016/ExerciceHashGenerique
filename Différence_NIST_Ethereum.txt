@@ -1,0 +1,3 @@
+Ethereum utilise sha3 mais c'est pas la meme version que celle originale. 
+Et la différense réside dans un argument appelé "delim" positionné près du dernier octet de la zone d'entrée.
+Dans le cas de Ethereum il y a 0*01 et dans le cas de NIST il y a 0*06.
